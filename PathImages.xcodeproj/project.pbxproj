@@ -25,6 +25,8 @@
 		3FDF8E61182BA42400C43FCC /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FDF8E3C182BA42300C43FCC /* CoreData.framework */; };
 		3FDF8E69182BA42400C43FCC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3FDF8E67182BA42400C43FCC /* InfoPlist.strings */; };
 		3FDF8E6B182BA42400C43FCC /* PathImagesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FDF8E6A182BA42400C43FCC /* PathImagesTests.m */; };
+		3FDF8E76182BA95200C43FCC /* cell.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3FDF8E75182BA95200C43FCC /* cell.jpg */; };
+		3FDF8E79182BABE500C43FCC /* PathMarkupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FDF8E78182BABE500C43FCC /* PathMarkupViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +63,9 @@
 		3FDF8E66182BA42400C43FCC /* PathImagesTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PathImagesTests-Info.plist"; sourceTree = "<group>"; };
 		3FDF8E68182BA42400C43FCC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3FDF8E6A182BA42400C43FCC /* PathImagesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PathImagesTests.m; sourceTree = "<group>"; };
+		3FDF8E75182BA95200C43FCC /* cell.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cell.jpg; sourceTree = "<group>"; };
+		3FDF8E77182BABE500C43FCC /* PathMarkupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PathMarkupViewController.h; sourceTree = "<group>"; };
+		3FDF8E78182BABE500C43FCC /* PathMarkupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PathMarkupViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +97,7 @@
 		3FDF8E2A182BA42300C43FCC = {
 			isa = PBXGroup;
 			children = (
+				3FDF8E74182BA93700C43FCC /* Resources */,
 				3FDF8E3E182BA42300C43FCC /* PathImages */,
 				3FDF8E64182BA42400C43FCC /* PathImagesTests */,
 				3FDF8E35182BA42300C43FCC /* Frameworks */,
@@ -126,6 +132,8 @@
 				3FDF8E47182BA42300C43FCC /* PathAppDelegate.h */,
 				3FDF8E48182BA42300C43FCC /* PathAppDelegate.m */,
 				3FDF8E4A182BA42300C43FCC /* Main.storyboard */,
+				3FDF8E77182BABE500C43FCC /* PathMarkupViewController.h */,
+				3FDF8E78182BABE500C43FCC /* PathMarkupViewController.m */,
 				3FDF8E50182BA42400C43FCC /* PathMasterViewController.h */,
 				3FDF8E51182BA42400C43FCC /* PathMasterViewController.m */,
 				3FDF8E53182BA42400C43FCC /* PathDetailViewController.h */,
@@ -164,6 +172,14 @@
 				3FDF8E67182BA42400C43FCC /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3FDF8E74182BA93700C43FCC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3FDF8E75182BA95200C43FCC /* cell.jpg */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -246,6 +262,7 @@
 				3FDF8E57182BA42400C43FCC /* Images.xcassets in Resources */,
 				3FDF8E43182BA42300C43FCC /* InfoPlist.strings in Resources */,
 				3FDF8E4C182BA42300C43FCC /* Main.storyboard in Resources */,
+				3FDF8E76182BA95200C43FCC /* cell.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,6 +286,7 @@
 				3FDF8E52182BA42400C43FCC /* PathMasterViewController.m in Sources */,
 				3FDF8E45182BA42300C43FCC /* main.m in Sources */,
 				3FDF8E49182BA42300C43FCC /* PathAppDelegate.m in Sources */,
+				3FDF8E79182BABE500C43FCC /* PathMarkupViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
